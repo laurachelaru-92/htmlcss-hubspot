@@ -12,7 +12,7 @@ color: #33475B;
   margin: auto;
 }
 
-.container-80::after {
+.clearfix {
   content: "";
   display: table;
   clear: both;
@@ -130,7 +130,10 @@ background-color: #fff;
   margin-bottom: 20px;
 }
 
-.banner-text p {
+.banner-text p,
+.rubiks-cube p,
+.hubspot-crm-content p,
+.hubspot-crm-content a {
   font-size: 15px;
   line-height: 25px;
 }
@@ -148,5 +151,106 @@ background-color: #fff;
 /* fine header */
 
 /* contenuto principale */
+main {
+  background-color: #F4F9FD;
+}
+
+/* sezione rubik's cube */
+.rubiks-cube {
+  text-align: center;
+}
+
+.rubiks-cube img {
+  width: 30%;
+  margin: 40px 0 10px 0;
+}
+
+.rubiks-cube h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.rubiks-cube p {
+  margin-bottom: 40px;
+}
+/* fine sezione rubik's cube */
+
+/* sezione hubspot crm */
+.white-box {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #bedbf3;
+  border-radius: 5px;
+}
+
+.hubspot-crm-container {
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.hubspot-crm-content {
+  width: 80%;
+  margin: auto;
+}
+
+.hubspot-crm-content img {
+  width: 130px;
+}
+
+.hubspot-crm-content > div:first-child {
+  text-align: center;
+  width: 20%;
+}
+
+.hubspot-crm-content > div:last-child {
+  width: 70%;
+  margin-left: 10%;
+}
+
+.hubspot-crm-content button {
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 13px;
+}
+
+.hubspot-crm-content h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hubspot-crm-content p {
+  margin-bottom: 20px;
+}
+
+.hubspot-crm-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.hubspot-crm-content hr {
+  display: inline-block;
+  width: auto;
+}
+
+.hubspot-crm-content ul {
+  list-style: none;
+}
+
+.hubspot-crm-content ul li {
+  display: inline-block;
+}
+
+.hubspot-crm-content ul li a {
+  text-decoration: none;
+}
+
+.hubspot-crm-content ul li i {
+  color: #fe775a;
+}
+/* fine sezione hubspot crm */
+
 
 /* fine contenuto principale */
