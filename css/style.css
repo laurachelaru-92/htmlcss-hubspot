@@ -7,12 +7,12 @@ font-weight: 500;
 color: #33475B;
 }
 
-.container-70 {
-  width: 70%;
+.container-80 {
+  width: 80%;
   margin: auto;
 }
 
-.container-70::after {
+.container-80::after {
   content: "";
   display: table;
   clear: both;
@@ -26,13 +26,13 @@ color: #33475B;
 /* header */
 /* barra di navigazione top */
 .navbar-top, .navbar-bottom {
-  font-size: 17px;
-  line-height: 100px;
-  height: 100px;
+  font-size: 15px;
+  line-height: 80px;
+  height: 80px;
 }
 
 .navbar-top {
-  border-bottom: 2px solid #33475B;
+  border-bottom: 1px solid #33475B;
   background-color: #F4F9FD;
 }
 
@@ -75,7 +75,7 @@ color: #33475B;
 .btn-login {
   background-color: #fff;
   color: #FE775A;
-  border: 2px solid #FE775A;
+  border: 1px solid #FE775A;
 }
 
 /* fine barra di navigazione top */
@@ -83,8 +83,6 @@ color: #33475B;
 /* barra di navigazione bottom */
 .navbar-bottom {
 background-color: #fff;
-border-bottom: 2px solid violet;
-line-height: 100px;
 }
 
 .logo img {
@@ -102,5 +100,53 @@ line-height: 100px;
 .navbar-bottom a {
   text-decoration: none;
 }
-
 /* fine barra di navigazione bottom */
+
+/* banner */
+.banner {
+  height: 600px;
+  background-color: #FFF2EF;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.banner .container-80 {
+  position: relative;
+  height: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 10%;
+  width: 50%;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.banner-text button {
+  margin: 25px 0;
+  padding: 20px;
+}
+
+.banner-text span {
+  display: block;
+  font-size: 12px;
+}
+/* fine banner */
+/* fine header */
+
+/* contenuto principale */
+
+/* fine contenuto principale */
