@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
+color: #33475B;
 }
 
 .container-70 {
@@ -11,7 +12,7 @@ font-weight: 500;
   margin: auto;
 }
 
-.container-70 {
+.container-70::after {
   content: "";
   display: table;
   clear: both;
@@ -22,13 +23,17 @@ font-weight: 500;
   margin: auto;
 }
 
-.navbar-top {
+/* header */
+/* barra di navigazione top */
+.navbar-top, .navbar-bottom {
+  font-size: 17px;
+  line-height: 100px;
   height: 100px;
+}
+
+.navbar-top {
   border-bottom: 2px solid #33475B;
   background-color: #F4F9FD;
-  color: #33475B;
-  font-size: 18px;
-  line-height: 100px;
 }
 
 .left {
@@ -40,8 +45,8 @@ font-weight: 500;
   border-right: 1px solid #33475B;
 }
 
-.navbar-top i {
-  margin: 4px;
+.navbar-top i, .navbar-bottom i {
+  padding: 4px;
 }
 
 .navbar-top .contact {
@@ -64,6 +69,7 @@ font-weight: 500;
   color: #fff;
   font-size: 15px;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .btn-login {
@@ -71,3 +77,30 @@ font-weight: 500;
   color: #FE775A;
   border: 2px solid #FE775A;
 }
+
+/* fine barra di navigazione top */
+
+/* barra di navigazione bottom */
+.navbar-bottom {
+background-color: #fff;
+border-bottom: 2px solid violet;
+line-height: 100px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.navbar-bottom ul {
+  list-style: none;
+}
+.navbar-bottom ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navbar-bottom a {
+  text-decoration: none;
+}
+
+/* fine barra di navigazione bottom */
