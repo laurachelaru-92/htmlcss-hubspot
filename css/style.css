@@ -45,7 +45,7 @@ color: #33475B;
   border-right: 1px solid #33475B;
 }
 
-.navbar-top i, .navbar-bottom i {
+.navbar-top i, .navbar-bottom i, .hubspot-crm-content i {
   padding: 4px;
 }
 
@@ -57,7 +57,7 @@ color: #33475B;
   float: right;
 }
 
-.navbar-top .search {
+.navbar-top .search i {
   color: #00A4BD;
 }
 
@@ -110,6 +110,7 @@ background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
+  position: relative;
 }
 
 .banner .container-80 {
@@ -147,11 +148,21 @@ background-color: #fff;
   display: block;
   font-size: 12px;
 }
+
+.azure-line {
+  height: 90px;
+  width: 100%;
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  position: absolute;
+  bottom: 0;
+}
 /* fine banner */
 /* fine header */
 
 /* contenuto principale */
-main {
+.lightblue-section {
   background-color: #F4F9FD;
 }
 
@@ -224,19 +235,26 @@ main {
 }
 
 .hubspot-crm-content h4 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   display: inline-block;
+  width: 30%;
 }
 
 .hubspot-crm-content hr {
   display: inline-block;
-  width: auto;
+  width: 400px;
+  height: 3px;
+  background-color: #7c99b6;
+  text-align: right;
+  vertical-align: middle;
+  overflow: visible;
 }
 
 .hubspot-crm-content ul {
   list-style: none;
+  margin-top: 20px;
 }
 
 .hubspot-crm-content ul li {
@@ -245,12 +263,23 @@ main {
 
 .hubspot-crm-content ul li a {
   text-decoration: none;
+  padding: 0 10px 0 5px;
 }
 
 .hubspot-crm-content ul li i {
   color: #fe775a;
 }
 /* fine sezione hubspot crm */
+/* sezione hubs  */
+.hubs-box {
+  width: calc(90% / 3);
+  height: 500px;
+  float: left;
+}
 
+.hubs-box:nth-child(2) {
+  margin: 0 5% 0 5%;
+}
+/* fine sezione hubs  */
 
 /* fine contenuto principale */
