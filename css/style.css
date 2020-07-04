@@ -45,7 +45,7 @@ color: #33475B;
   border-right: 1px solid #33475B;
 }
 
-.navbar-top i, .navbar-bottom i, .hubspot-crm-content i {
+.navbar-top i, .navbar-bottom i, .hubspot-crm-content i, .hubs-box i {
   padding: 4px;
 }
 
@@ -134,7 +134,8 @@ background-color: #fff;
 .banner-text p,
 .rubiks-cube p,
 .hubspot-crm-content p,
-.hubspot-crm-content a {
+.hubspot-crm-content a,
+.hubs-box {
   font-size: 15px;
   line-height: 25px;
 }
@@ -164,6 +165,7 @@ background-color: #fff;
 /* contenuto principale */
 .lightblue-section {
   background-color: #F4F9FD;
+  padding: 40px 0;
 }
 
 /* sezione rubik's cube */
@@ -173,7 +175,7 @@ background-color: #fff;
 
 .rubiks-cube img {
   width: 30%;
-  margin: 40px 0 10px 0;
+  margin-bottom: 10px
 }
 
 .rubiks-cube h2 {
@@ -218,13 +220,14 @@ background-color: #fff;
   margin-left: 10%;
 }
 
-.hubspot-crm-content button {
+.hubspot-crm-content button,
+.hubs-box button {
   margin-top: 20px;
   padding: 15px 25px;
   font-size: 13px;
 }
 
-.hubspot-crm-content h3 {
+.hubspot-crm-content h3, .hubs-box h3 {
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -266,20 +269,48 @@ background-color: #fff;
   padding: 0 10px 0 5px;
 }
 
-.hubspot-crm-content ul li i {
+.hubspot-crm-content ul li i,
+.hubs-box ul li i {
   color: #fe775a;
 }
 /* fine sezione hubspot crm */
 /* sezione hubs  */
 .hubs-box {
   width: calc(90% / 3);
-  height: 500px;
   float: left;
+  text-align: center;
+  padding: 20px 30px;
 }
 
 .hubs-box:nth-child(2) {
   margin: 0 5% 0 5%;
 }
+
+.hubs-box img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.hubs-box hr {
+  margin-top: 40px;
+  height: 3px;
+  background-color: #7c99b6;
+}
+
+.hubs-box h4 {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 30px 0 20px 0;
+}
+
+.hubs-box ul {
+  list-style: none;
+  text-align: left;
+  line-height: 5px;
+  margin-bottom: 20px;
+}
+
 /* fine sezione hubs  */
 
 /* fine contenuto principale */
