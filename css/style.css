@@ -135,7 +135,8 @@ background-color: #fff;
 .rubiks-cube p,
 .hubspot-crm-content p,
 .hubspot-crm-content a,
-.hubs-box {
+.hubs-box,
+.blue-section p {
   font-size: 15px;
   line-height: 25px;
 }
@@ -310,7 +311,74 @@ background-color: #fff;
   line-height: 5px;
   margin-bottom: 20px;
 }
-
 /* fine sezione hubs  */
+
+/* sezione blu */
+.blue-section {
+  background-image: linear-gradient(to right, #00AAB7, #00B8AB);
+  padding: 30px 0 60px 0;
+  text-align: center;
+}
+
+.blue-section h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.blue-section .container-80 > p {
+  color: #fff;
+  padding: 30px 0;
+}
+
+.eight-boxes {
+  width: 100%;
+  height: 300px;
+}
+
+.top-row, .bottom-row {
+  width: 100%;
+  height: 50%;
+}
+
+.bottom-row {
+border-top: 2px solid #fff;
+}
+
+.table-box {
+  float: left;
+  width: calc(100% / 4);
+  height: 100%;
+  padding: 10px;
+}
+
+.table-box img {
+  padding: 5px;
+  height: 30%;
+}
+
+.table-box h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 5px 0;
+}
+
+.table-box p {
+  color: #fff;
+  font-size: 11px;
+}
+
+.table-box:nth-child(2) {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.table-box:last-child {
+  border-left: 2px solid #fff;
+}
+
+/* fine sezione blu */
 
 /* fine contenuto principale */
