@@ -136,7 +136,9 @@ background-color: #fff;
 .hubspot-crm-content p,
 .hubspot-crm-content a,
 .hubs-box,
-.blue-section p {
+.blue-section p,
+.logos-section p,
+.start-now p {
   font-size: 15px;
   line-height: 25px;
 }
@@ -179,7 +181,8 @@ background-color: #fff;
   margin-bottom: 10px
 }
 
-.rubiks-cube h2 {
+.rubiks-cube h2,
+.start-now-text h2 {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -355,7 +358,7 @@ border-top: 2px solid #fff;
 
 .table-box img {
   padding: 5px;
-  height: 30%;
+  height: 40px;
 }
 
 .table-box h1 {
@@ -378,7 +381,88 @@ border-top: 2px solid #fff;
 .table-box:last-child {
   border-left: 2px solid #fff;
 }
-
 /* fine sezione blu */
 
+/* sezione sfondo bianco */
+.white-section {
+  padding: 50px 0;
+}
+
+.logos-section {
+  position: relative;
+}
+
+.logos-section .text-countries {
+  width: 25%;
+}
+
+.logos-section .text-countries h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.logos-section .businesses-logos {
+  float: right;
+  width: 65%;
+  height: 80%;
+  margin-left: 10%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.logos-section .businesses-logos .logo-wrapper {
+  float: left;
+  width: calc(100% / 4);
+  height: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.logos-section .businesses-logos .logo-wrapper img {
+  max-width: 100px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clearfix-right::after {
+  content: "";
+  display: table;
+  clear: right;
+}
+
+.start-now {
+  margin: 100px auto;
+  height: 300px;
+}
+
+.start-now-text {
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+
+.start-now p {
+  margin: 30px 0 40px 0;
+}
+
+.start-now button {
+  margin: 0;
+  padding: 20px 30px;
+}
+
+.start-now p:last-child {
+  font-size: 11px;
+}
+
+.start-now img {
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+/* fine sezione sfondo bianco */
 /* fine contenuto principale */
