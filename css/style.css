@@ -34,6 +34,9 @@ color: #33475B;
 .navbar-top {
   border-bottom: 1px solid #33475B;
   background-color: #F4F9FD;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 .left {
@@ -101,6 +104,8 @@ nav a:hover {
 /* barra di navigazione bottom */
 .navbar-bottom {
 background-color: #fff;
+position: relative;
+top: 70px;
 }
 
 .logo img {
@@ -125,6 +130,7 @@ background-color: #fff;
   background-size: cover;
   background-position: bottom right;
   position: relative;
+  top: 70px;
 }
 
 .banner-text {
@@ -168,6 +174,11 @@ background-color: #fff;
 /* fine header */
 
 /* contenuto principale */
+main {
+  position: relative;
+  top: 70px;
+}
+
 .lightblue-section {
   background-color: #F4F9FD;
   padding: 40px 0;
@@ -307,7 +318,6 @@ background-color: #fff;
 .hubs-box ul {
   list-style: none;
   text-align: left;
-  line-height: 5px;
   margin-bottom: 20px;
 }
 /* fine sezione hubs  */
@@ -315,7 +325,7 @@ background-color: #fff;
 /* sezione blu */
 .blue-section {
   background-image: linear-gradient(to right, #00AAB7, #00B8AB);
-  padding: 30px 0 60px 0;
+  padding: 40px 0 60px 0;
   text-align: center;
 }
 
@@ -470,6 +480,8 @@ border-top: 2px solid #fff;
 footer {
   padding: 30px 0 40px 0;
   background-color: #32495B;
+  position: relative;
+  top: 70px;
 }
 
 footer a, footer i {
