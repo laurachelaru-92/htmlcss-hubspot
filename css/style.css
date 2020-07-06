@@ -61,6 +61,14 @@ color: #33475B;
   color: #00A4BD;
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #5c80a3;
+}
+
 .btn {
   padding: 10px;
   border-radius: 5px;
@@ -72,10 +80,20 @@ color: #33475B;
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #feac9a;
+}
+
 .btn-login {
   background-color: #fff;
   color: #FE775A;
   border: 1px solid #FE775A;
+}
+
+.btn-login:hover {
+  background-color: #ffeae6;
+  border: 1px solid rgba(0,0,0,0);
+  color: #fe441b;
 }
 
 /* fine barra di navigazione top */
@@ -95,10 +113,6 @@ background-color: #fff;
 .navbar-bottom ul li {
   display: inline-block;
   padding: 0 10px;
-}
-
-.navbar-bottom a {
-  text-decoration: none;
 }
 /* fine barra di navigazione bottom */
 
@@ -458,9 +472,18 @@ footer {
   background-color: #32495B;
 }
 
-footer li, footer i {
+footer a, footer i {
+  text-decoration: none;
   color: rgba(255,255,255,0.8);
   font-size: 13px;
+}
+
+footer a:hover, footer i:hover {
+  color: rgba(255,255,255,0.6);
+}
+
+footer button:hover {
+  background-color: rgba(255,255,255,0.6);
 }
 
 footer hr {
@@ -542,8 +565,9 @@ footer .ending span {
   font-size: 13px;
 }
 
-footer .ending .right a:first-child {
+footer .ending .right span:first-child {
   padding: 15px;
 }
+
 
 /* fine footer */
