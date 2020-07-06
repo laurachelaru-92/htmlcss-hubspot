@@ -7,8 +7,8 @@ font-weight: 500;
 color: #33475B;
 }
 
-.container-80 {
-  width: 80%;
+.container-70 {
+  width: 70%;
   margin: auto;
 }
 
@@ -18,17 +18,17 @@ color: #33475B;
   clear: both;
 }
 
-.container-60 {
-  width: 60%;
+.container-50 {
+  width: 50%;
   margin: auto;
 }
 
 /* header */
 /* barra di navigazione top */
 .navbar-top, .navbar-bottom {
-  font-size: 15px;
-  line-height: 80px;
-  height: 80px;
+  font-size: 13px;
+  line-height: 70px;
+  height: 70px;
 }
 
 .navbar-top {
@@ -45,7 +45,7 @@ color: #33475B;
   border-right: 1px solid #33475B;
 }
 
-.navbar-top i, .navbar-bottom i, .hubspot-crm-content i, .hubs-box i {
+.padded, .hubspot-crm-content i, .hubs-box i {
   padding: 4px;
 }
 
@@ -67,7 +67,7 @@ color: #33475B;
   border: none;
   background-color: #FE775A;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   margin: 0 10px;
   cursor: pointer;
 }
@@ -113,44 +113,32 @@ background-color: #fff;
   position: relative;
 }
 
-.banner .container-80 {
-  position: relative;
-  height: 100%;
-}
-
 .banner-text {
   position: absolute;
   top: 10%;
-  width: 50%;
+  width: 35%;
 }
 
 .banner-text h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 20px;
 }
 
-.banner-text p,
-.rubiks-cube p,
-.hubspot-crm-content p,
-.hubspot-crm-content a,
-.hubs-box,
-.blue-section p,
-.logos-section p,
-.start-now p {
-  font-size: 15px;
+.small-text {
+  font-size: 13px;
   line-height: 25px;
 }
 
 .banner-text button {
   margin: 25px 0;
-  padding: 20px;
+  padding: 15px 30px;
 }
 
 .banner-text span {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .azure-line {
@@ -181,9 +169,8 @@ background-color: #fff;
   margin-bottom: 10px
 }
 
-.rubiks-cube h2,
-.start-now-text h2 {
-  font-size: 30px;
+.sottotitolo {
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -232,16 +219,13 @@ background-color: #fff;
 }
 
 .hubspot-crm-content h3, .hubs-box h3 {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.hubspot-crm-content p {
-  margin-bottom: 20px;
-}
-
 .hubspot-crm-content h4 {
+  margin-top: 20px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -251,12 +235,10 @@ background-color: #fff;
 
 .hubspot-crm-content hr {
   display: inline-block;
-  width: 400px;
-  height: 3px;
+  width: 60%;
+  height: 2.5px;
   background-color: #7c99b6;
-  text-align: right;
   vertical-align: middle;
-  overflow: visible;
 }
 
 .hubspot-crm-content ul {
@@ -324,13 +306,13 @@ background-color: #fff;
 }
 
 .blue-section h2 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 600;
   color: #fff;
   padding: 0 20px;
 }
 
-.blue-section .container-80 > p {
+.blue-section p {
   color: #fff;
   padding: 30px 0;
 }
@@ -371,6 +353,7 @@ border-top: 2px solid #fff;
 .table-box p {
   color: #fff;
   font-size: 11px;
+  padding: 5px 0 0 0;
 }
 
 .table-box:nth-child(2) {
@@ -422,11 +405,11 @@ border-top: 2px solid #fff;
 }
 
 .logos-section .businesses-logos .logo-wrapper img {
-  max-width: 100px;
-  vertical-align: middle;
+  width: 70%;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .clearfix-right::after {
@@ -477,6 +460,7 @@ footer {
 
 footer li, footer i {
   color: rgba(255,255,255,0.8);
+  font-size: 13px;
 }
 
 footer hr {
@@ -488,7 +472,6 @@ footer hr {
 }
 
 .footer-list {
-  /* color: #A5B2C0; */
   float: left;
   width: 25%;
 }
@@ -504,8 +487,7 @@ footer hr {
   list-style: none;
 }
 
-.footer-list li {
-  font-size: 13px;
+footer li {
   line-height: 30px;
   font-weight: 400;
 }
@@ -527,9 +509,6 @@ footer hr {
   font-size: 12px;
 }
 
-.footer-list .footer-icons i {
-}
-
 footer .languages {
   text-align: center;
   margin: 60px 0 30px 0;
@@ -537,7 +516,7 @@ footer .languages {
 
 footer .languages ul {
   list-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 footer .languages ul li {
@@ -558,9 +537,9 @@ footer .ending img {
   margin-bottom: 5px;
 }
 
-footer .ending span,
-footer .ending img {
+footer .ending span {
   color: rgba(255,255,255,0.8);
+  font-size: 13px;
 }
 
 footer .ending .right a:first-child {
