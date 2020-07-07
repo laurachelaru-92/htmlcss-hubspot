@@ -36,6 +36,7 @@ color: #33475B;
   background-color: #F4F9FD;
   width: 100%;
   position: fixed;
+  top: 0;
   z-index: 1;
 }
 
@@ -94,9 +95,8 @@ nav a:hover {
 }
 
 .btn-login:hover {
-  background-color: #ffeae6;
+  background-color: #fff2e6;
   border: 1px solid rgba(0,0,0,0);
-  color: #fe441b;
 }
 
 /* fine barra di navigazione top */
@@ -104,8 +104,7 @@ nav a:hover {
 /* barra di navigazione bottom */
 .navbar-bottom {
 background-color: #fff;
-position: relative;
-top: 70px;
+margin-top: 70px;
 }
 
 .logo img {
@@ -127,10 +126,9 @@ top: 70px;
   background-color: #FFF2EF;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: bottom right;
+  background-size: 95%;
   position: relative;
-  top: 70px;
 }
 
 .banner-text {
@@ -162,7 +160,7 @@ top: 70px;
 }
 
 .azure-line {
-  height: 90px;
+  height: 80px;
   width: 100%;
   background-color: #afebe4;
   border-top: 3px solid #33475b;
@@ -174,11 +172,6 @@ top: 70px;
 /* fine header */
 
 /* contenuto principale */
-main {
-  position: relative;
-  top: 70px;
-}
-
 .lightblue-section {
   background-color: #F4F9FD;
   padding: 40px 0;
@@ -480,8 +473,6 @@ border-top: 2px solid #fff;
 footer {
   padding: 30px 0 40px 0;
   background-color: #32495B;
-  position: relative;
-  top: 70px;
 }
 
 footer a, footer i {
@@ -580,6 +571,65 @@ footer .ending span {
 footer .ending .right span:first-child {
   padding: 15px;
 }
-
-
 /* fine footer */
+
+/* bonus */
+.bonus {
+  position: fixed;
+  bottom: 90px;
+  right: 10px;
+  background-color: #fff;
+  box-shadow: -5px 5px 10px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 30px 15px;
+  color: black;
+}
+
+.exit-symbol {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+#bonus-logo {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bonus-text {
+  width: 225px;
+}
+
+#bonus-handwave {
+  width: 15px;
+}
+
+.bonus-text span {
+  font-weight: 300;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.bonus .chat-icon {
+  position: absolute;
+  bottom: -75px;
+  right: 0;
+}
+
+.bonus .chat-icon i {
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: #33475B;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: -3px 3px 8px 8px rgba(0,0,0,0.2);
+}
+/* fine bonus */
