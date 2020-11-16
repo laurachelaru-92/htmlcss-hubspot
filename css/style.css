@@ -168,6 +168,25 @@ margin-top: 70px;
   position: absolute;
   bottom: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .azure-line {
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .azure-line {
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .azure-line {
+    height: 3rem;
+  }
+}
+
 /* fine banner */
 /* fine header */
 
